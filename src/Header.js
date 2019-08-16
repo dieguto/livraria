@@ -4,8 +4,8 @@ class Header extends Component{
     render(){
         return(
             <div className="header">
-                <h1>Autores</h1>
-                <h2>Cadastre os autores dos seus livros</h2>
+                <h1>{this.props.titulo}</h1>
+                <h2>{this.props.subtitulo}</h2>
             </div>
         );
     }
